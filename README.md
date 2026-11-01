@@ -6,7 +6,7 @@ This project collects real-time, genuinely out-of-sample exchange-rate forecasts
 
 *Hafsa Al Hassan · Econ 5041, Ohio University · April 2026*
 
-📄 [Full report (PDF)](report/forecasting_exchange_rates_report.pdf) · 📊 [Presentation slides (PDF)](report/presentation_slides.pdf)
+📄 [Full report (PDF)](forecasting_exchange_rates_report.pdf) · 📊 [Presentation slides (PDF)](presentation_slides.pdf)
 
 ---
 
@@ -39,21 +39,20 @@ This project collects real-time, genuinely out-of-sample exchange-rate forecasts
 Estimated average forecast errors of the benchmark models (EUR and SEK):
 
 <p>
-  <img src="figures/afe_eur.png" width="48%" alt="Average forecast errors of benchmark models for EUR">
-  <img src="figures/afe_sek.png" width="48%" alt="Average forecast errors of benchmark models for SEK">
+  <img src="afe_eur.png" width="48%" alt="Average forecast errors of benchmark models for EUR">
+  <img src="afe_sek.png" width="48%" alt="Average forecast errors of benchmark models for SEK">
 </p>
 
-## Repository structure
-```
-├── code/
-│   └── forecasting_analysis.R        # full analysis: cleaning, errors, benchmarks, tests, panel regression
-├── data/
-│   ├── copilot_forecasts.csv         # Copilot forecasts, by day, horizon, prompt and currency
-│   ├── gemini_forecasts.csv          # Gemini forecasts, same layout
-│   └── actual_exchange_rates_fred.csv
-├── figures/                          # AFE plots for each currency
-└── report/                           # final paper and presentation slides
-```
+## Files
+| File | What it is |
+|---|---|
+| `forecasting_analysis.R` | Full analysis: data cleaning, forecast errors, benchmarks, tests, panel regression |
+| `copilot_forecasts.csv` | Copilot forecasts by day, horizon, prompt and currency |
+| `gemini_forecasts.csv` | Gemini forecasts, same layout |
+| `actual_exchange_rates_fred.csv` | Actual daily exchange rates from FRED |
+| `afe_*.png` | Average forecast error plots for each currency |
+| `forecasting_exchange_rates_report.pdf` | Final research paper |
+| `presentation_slides.pdf` | Presentation slides |
 
 ## Tools
 R · tidyverse (dplyr, tidyr, readr, ggplot2) · stargazer · FRED data
