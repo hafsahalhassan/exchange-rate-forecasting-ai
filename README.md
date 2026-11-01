@@ -4,7 +4,7 @@
 
 This project collects real-time, genuinely out-of-sample exchange-rate forecasts from **Microsoft Copilot** and **Google Gemini** and evaluates them against classic benchmarks (**random walk** and **AR(1)**) using standard forecast-evaluation methods in **R**.
 
-*Hafsa Al Hassan · Econ 5041, Ohio University · April 2026*
+*Hafsah Alhassan · Econ 5041, Ohio University · April 2026*
 
 📄 [Full report (PDF)](forecasting_exchange_rates_report.pdf) · 📊 [Presentation slides (PDF)](presentation_slides.pdf)
 
