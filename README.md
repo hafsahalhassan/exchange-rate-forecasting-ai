@@ -6,8 +6,6 @@ This project collects real-time, genuinely out-of-sample exchange-rate forecasts
 
 *Hafsah Alhassan · Econ 5041, Ohio University · April 2026*
 
-📄 [Full report (PDF)](forecasting_exchange_rates_report.pdf) · 📊 [Presentation slides (PDF)](presentation_slides.pdf)
-
 ---
 
 ## Key findings
@@ -51,8 +49,6 @@ Estimated average forecast errors of the benchmark models (EUR and SEK):
 | `gemini_forecasts.csv` | Gemini forecasts, same layout |
 | `actual_exchange_rates_fred.csv` | Actual daily exchange rates from FRED |
 | `afe_*.png` | Average forecast error plots for each currency |
-| `forecasting_exchange_rates_report.pdf` | Final research paper |
-| `presentation_slides.pdf` | Presentation slides |
 
 ## Tools
 R · tidyverse (dplyr, tidyr, readr, ggplot2) · stargazer · FRED data
